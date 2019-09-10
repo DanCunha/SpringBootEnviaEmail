@@ -12,7 +12,7 @@ public class EmailService {
             Email email = new SimpleEmail();
             email.setHostName("smtp.office365.com");
             email.setSmtpPort(587);
-            email.setAuthenticator(new DefaultAuthenticator("daniel.cunha@itbam.org.br", "Cunh@!@#"));
+            email.setAuthenticator(new DefaultAuthenticator("daniel.cunha@itbam.org.br", ""));
             email.setStartTLSEnabled(true);
             //email.setSSLOnConnect(true);
 
